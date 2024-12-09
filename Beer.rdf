@@ -142,13 +142,23 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
+        <rdfs:isDefinedBy>Supplements added during the brewing</rdfs:isDefinedBy>
+        <rdfs:label>Adjuncts</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent">
+        <rdfs:comment>Low alcohol: &lt;0.5% ABV
+Session: 1.0% - 4.0% ABV
+Standard: 4.8% - 6.0% ABV
+High strength: 6.0% - 10.0% ABV
+Extreme strength: &gt;10.0% ABV</rdfs:comment>
+        <rdfs:isDefinedBy>Represents the proportion of alcohol present in a beer, typically expressed as a percentage of the total volume (Alcohol by Volume, ABV)</rdfs:isDefinedBy>
+        <rdfs:label>Alcohol Content</rdfs:label>
+    </owl:Class>
     
 
 
@@ -156,6 +166,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
+        <rdfs:isDefinedBy>Beer that is brewed by fast fermentation with a quick-acting yeast at relatively high temperatures</rdfs:isDefinedBy>
+        <rdfs:label>Ale</rdfs:label>
     </owl:Class>
     
 
@@ -164,6 +176,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
+        <rdfs:isDefinedBy>The color tone of the beer</rdfs:isDefinedBy>
+        <rdfs:label>Appearance</rdfs:label>
     </owl:Class>
     
 
@@ -172,6 +186,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
+        <rdfs:isDefinedBy>The smell of the beer</rdfs:isDefinedBy>
+        <rdfs:label>Aroma</rdfs:label>
     </owl:Class>
     
 
@@ -180,19 +196,27 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:isDefinedBy>Represents beers originating from Asia</rdfs:isDefinedBy>
+        <rdfs:label>Asia</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer">
+        <rdfs:isDefinedBy>An alcoholic beverage made by brewing and fermentation from cereals, usually malted barley, and flavored with hops and the like for a slightly bitter taste</rdfs:isDefinedBy>
+        <rdfs:label>Beer</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle">
+        <rdfs:isDefinedBy>A categorisation used to differentiate beers by their properties such as colour, flavour, strength, ingredients, production method, recipe, history, or origin</rdfs:isDefinedBy>
+        <rdfs:label>Beer Style</rdfs:label>
+    </owl:Class>
     
 
 
@@ -206,6 +230,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:isDefinedBy>Represents beers originating from Europe</rdfs:isDefinedBy>
+        <rdfs:label>Europe</rdfs:label>
     </owl:Class>
     
 
@@ -214,13 +240,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
+        <rdfs:isDefinedBy>The tone of the flavour of the beer</rdfs:isDefinedBy>
+        <rdfs:label>Flavour</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing">
+        <rdfs:isDefinedBy>Represents different foods that, when paired with a beer, complement or contrast the flavour of the beer with the intention of improving the dining experience</rdfs:isDefinedBy>
+        <rdfs:label>Food Pairing</rdfs:label>
+    </owl:Class>
     
 
 
@@ -228,6 +259,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
+        <rdfs:isDefinedBy>A plant cone used primarily as a bittering, flavouring, and stability agent in beer</rdfs:isDefinedBy>
+        <rdfs:label>Hops</rdfs:label>
     </owl:Class>
     
 
@@ -236,13 +269,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
+        <rdfs:isDefinedBy>Beer that takes brewing practices from both ales and lagers and combines them together, using ale yeast in a lagering method for instance</rdfs:isDefinedBy>
+        <rdfs:label>Hybrid Style</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient">
+        <rdfs:isDefinedBy>Represents specific ingredients used in the brewing of the beer</rdfs:isDefinedBy>
+        <rdfs:label>Ingredient</rdfs:label>
+    </owl:Class>
     
 
 
@@ -250,6 +288,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
+        <rdfs:isDefinedBy>Beer that is brewed at cool temperatures by slow fermentation with a slow-acting yeast</rdfs:isDefinedBy>
+        <rdfs:label>Lager</rdfs:label>
     </owl:Class>
     
 
@@ -258,6 +298,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
+        <rdfs:isDefinedBy>A grain that provides the sugar that is essential in brewing beer, as well as adding aromas like coffee, toast, almonds, and others to the beer</rdfs:isDefinedBy>
+        <rdfs:label>Malt</rdfs:label>
     </owl:Class>
     
 
@@ -266,6 +308,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
+        <rdfs:isDefinedBy>Represents the texture of the beer felt in the mouth</rdfs:isDefinedBy>
+        <rdfs:label>Mouthfeel</rdfs:label>
     </owl:Class>
     
 
@@ -274,6 +318,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:isDefinedBy>Represents beers originating from North America</rdfs:isDefinedBy>
+        <rdfs:label>North America</rdfs:label>
     </owl:Class>
     
 
@@ -282,13 +328,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:isDefinedBy>Represents beers originating from Oceania</rdfs:isDefinedBy>
+        <rdfs:label>Oceania</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region">
+        <rdfs:isDefinedBy>Specifies the region where the beer originates from</rdfs:isDefinedBy>
+        <rdfs:label>Region</rdfs:label>
+    </owl:Class>
     
 
 
@@ -297,6 +348,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization"/>
+        <rdfs:isDefinedBy>Categorises the breweries by their annual production, typically measured in barrels of beer</rdfs:isDefinedBy>
+        <rdfs:label>Scale Of Operation</rdfs:label>
     </owl:Class>
     
 
@@ -305,6 +358,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SnackFoods">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+        <rdfs:isDefinedBy>A group of snacks that can be paired with beer</rdfs:isDefinedBy>
+        <rdfs:label>Snacks</rdfs:label>
     </owl:Class>
     
 
@@ -313,13 +368,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
+        <rdfs:isDefinedBy>Represents the specific focus or operational model of a brewery</rdfs:isDefinedBy>
+        <rdfs:label>Specialisation</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote">
+        <rdfs:isDefinedBy>Represents the attributes of a beer that are tested during tasting</rdfs:isDefinedBy>
+        <rdfs:label>Tasting Note</rdfs:label>
+    </owl:Class>
     
 
 
@@ -327,6 +387,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+        <rdfs:isDefinedBy>A group of cheese dishes that can be paired with beer</rdfs:isDefinedBy>
+        <rdfs:label>Cheese</rdfs:label>
     </owl:Class>
     
 
@@ -335,6 +397,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+        <rdfs:isDefinedBy>A group of desserts that can be paired with beer</rdfs:isDefinedBy>
+        <rdfs:label>Desserts</rdfs:label>
     </owl:Class>
     
 
@@ -343,6 +407,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+        <rdfs:isDefinedBy>A group of meat dishes that can be paired with beer</rdfs:isDefinedBy>
+        <rdfs:label>Meat Dishes</rdfs:label>
     </owl:Class>
     
 
@@ -351,6 +417,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithVegetarianDishes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
+        <rdfs:isDefinedBy>A group of vegetarian dishes that can be paired with beer</rdfs:isDefinedBy>
+        <rdfs:label>Vegetarian Dishes</rdfs:label>
     </owl:Class>
     
 
@@ -359,6 +427,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
+        <rdfs:isDefinedBy>Used during brewing to convert sugars into alcohol and carbon dioxide, creating the distinct flavours, aromas, and textures</rdfs:isDefinedBy>
+        <rdfs:label>Yeast</rdfs:label>
     </owl:Class>
     
 
@@ -1067,6 +1137,21 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast">
         <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery">
+        <rdfs:isDefinedBy>A business that makes and sells beer</rdfs:isDefinedBy>
+        <rdfs:label>Brewery</rdfs:label>
+    </rdf:Description>
     
 
 
