@@ -9,6 +9,7 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 **BeerStyle:** Represents styles of beer (e.g., PaleAle, IPA, Stout).
 
 **TastingNote:** Represents sensory characteristics like flavor, aroma, and appearance.
+- https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6GzCJZb7z5RlgYYkbsI_ydzPHpToMWl_2DZgKNnab7R4xOgSpe6gdmcQx8VurxCeKkGN1CYL5hdvupxSWuJE4WqrE_lm8s_dADrVGzF8NLtt9gtS2oVSVOa4uKQ2BQa4DDaBzu9amLYr/s1600/beer-flavor-wheel.jpg
 
 **Brewery:** Represents beer producers, including attributes such as location and year of establishment.
 
@@ -16,7 +17,10 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 **Region:** Represents geographical origins of beer styles or breweries.
 
-**Ingredient:** Represents beer ingredients like malt, hops, yeast, and water. [https://www.homebrewersassociation.org/how-to-brew/homebrew-ingredients/, https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer]
+**Ingredient:** Represents beer ingredients like malt, hops, yeast, and water. 
+- General structure: https://www.homebrewersassociation.org/how-to-brew/homebrew-ingredients/
+- Malt: https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer/
+- Yeast: https://beermaverick.com/yeasts/
 
 **AlcoholContent:** Represents alcohol by volume (ABV).
 
