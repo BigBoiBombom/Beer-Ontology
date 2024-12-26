@@ -16,7 +16,7 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 **Region:** Represents geographical origins of beer styles or breweries.
 
-**Ingredient:** Represents beer ingredients like malt, hops, yeast, and water.
+**Ingredient:** Represents beer ingredients like malt, hops, yeast, and water. [https://www.homebrewersassociation.org/how-to-brew/homebrew-ingredients/]
 
 **AlcoholContent:** Represents alcohol by volume (ABV).
 
