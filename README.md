@@ -6,8 +6,6 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 ## Classes:
 
-**Beer:** Represents individual beers.
-
 **BeerStyle:** Represents styles of beer (e.g., PaleAle, IPA, Stout).
 
 **TastingNote:** Represents sensory characteristics like flavor, aroma, and appearance.
