@@ -7,6 +7,8 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 ## Classes:
 
 **BeerStyle:** Represents styles of beer (e.g., PaleAle, IPA, Stout).
+- https://www.wineenthusiast.com/basics/most-popular-style-beer-guide/?utm_source=chatgpt.com
+- https://www.tastingtable.com/1705830/types-of-beer-explained/
 
 **TastingNote:** Represents sensory characteristics like flavor, aroma, and appearance.
 - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6GzCJZb7z5RlgYYkbsI_ydzPHpToMWl_2DZgKNnab7R4xOgSpe6gdmcQx8VurxCeKkGN1CYL5hdvupxSWuJE4WqrE_lm8s_dADrVGzF8NLtt9gtS2oVSVOa4uKQ2BQa4DDaBzu9amLYr/s1600/beer-flavor-wheel.jpg
@@ -14,15 +16,21 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 **Brewery:** Represents beer producers, including attributes such as location and year of establishment.
 
 **FoodPairing:** Represents foods that complement specific beer styles.
+- https://www.brewersassociation.org/attachments/0000/2095/Beer_and_Food_Flyer_MDC.pdf
+- https://www.webstaurantstore.com/article/96/beer-and-food-pairings.html?srsltid=AfmBOopsjI7v4dnyX5IbS5jKh87guIQfwSv7jYdRXb2qrVmUl2YHA6Mq
 
 **Region:** Represents geographical origins of beer styles or breweries.
+- https://www.statista.com/statistics/270269/leading-10-countries-in-worldwide-beer-production/ = Selected top 5 + Czechia and Slovakia
 
 **Ingredient:** Represents beer ingredients like malt, hops, yeast, and water. 
 - General structure: https://www.homebrewersassociation.org/how-to-brew/homebrew-ingredients/
 - Malt: https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer/
 - Yeast: https://beermaverick.com/yeasts/
+- Hops: https://www.brewgem.com/what-types-of-hops-are-used-in-beer-brewing/
+- Adjuncts: https://www.thespruceeats.com/beer-adjuncts-guide-353147?utm_source=chatgpt.com
 
 **AlcoholContent:** Represents alcohol by volume (ABV).
+- https://www.unknownbrewing.com/how-much-alcohol-is-in-beer/
 
 
 ## Properties:
