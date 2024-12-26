@@ -26,7 +26,6 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasAlcoholContent">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
     </owl:ObjectProperty>
     
@@ -37,7 +36,6 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasBrewery">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#producesBeer"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
     </owl:ObjectProperty>
     
@@ -47,7 +45,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasFoodPairing">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasPairing"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
     </owl:ObjectProperty>
@@ -58,7 +55,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasIngredient">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
     </owl:ObjectProperty>
@@ -69,7 +65,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasPairing">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
     </owl:ObjectProperty>
     
 
@@ -78,7 +73,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasRegion">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
     </owl:ObjectProperty>
@@ -91,7 +85,6 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
     </owl:ObjectProperty>
     
@@ -101,18 +94,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasTastingNote">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BeerStyle"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#isNon-Alcoholic -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#isNon-Alcoholic">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#hasAlcoholContent"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
     </owl:ObjectProperty>
     
 
@@ -122,7 +105,6 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#producesBeer">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer"/>
     </owl:ObjectProperty>
     
 
@@ -172,6 +154,22 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance">
@@ -192,21 +190,43 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
-        <rdfs:isDefinedBy>Represents beers originating from Asia</rdfs:isDefinedBy>
-        <rdfs:label>Asia</rdfs:label>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Beer">
-        <rdfs:isDefinedBy>An alcoholic beverage made by brewing and fermentation from cereals, usually malted barley, and flavored with hops and the like for a slightly bitter taste</rdfs:isDefinedBy>
-        <rdfs:label>Beer</rdfs:label>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BarleyMalt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BarleyMalt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatMalt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
     </owl:Class>
     
 
@@ -220,9 +240,153 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
+    </owl:Class>
     
 
 
@@ -246,11 +410,75 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing">
         <rdfs:isDefinedBy>Represents different foods that, when paired with a beer, complement or contrast the flavour of the beer with the intention of improving the dining experience</rdfs:isDefinedBy>
         <rdfs:label>Food Pairing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
     </owl:Class>
     
 
@@ -275,6 +503,14 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient">
@@ -294,12 +530,70 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
         <rdfs:isDefinedBy>A grain that provides the sugar that is essential in brewing beer, as well as adding aromas like coffee, toast, almonds, and others to the beer</rdfs:isDefinedBy>
         <rdfs:label>Malt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
     </owl:Class>
     
 
@@ -314,6 +608,22 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Non-Alcoholic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Non-Alcoholic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica">
@@ -324,12 +634,42 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Other -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
-        <rdfs:isDefinedBy>Represents beers originating from Oceania</rdfs:isDefinedBy>
-        <rdfs:label>Oceania</rdfs:label>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
     </owl:Class>
     
 
@@ -343,13 +683,43 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation">
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization"/>
-        <rdfs:isDefinedBy>Categorises the breweries by their annual production, typically measured in barrels of beer</rdfs:isDefinedBy>
-        <rdfs:label>Scale Of Operation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithVegetarianDishes"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
     </owl:Class>
     
 
@@ -364,12 +734,74 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
-        <rdfs:isDefinedBy>Represents the specific focus or operational model of a brewery</rdfs:isDefinedBy>
-        <rdfs:label>Specialisation</rdfs:label>
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithVegetarianDishes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
     </owl:Class>
     
 
@@ -379,6 +811,54 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TastingNote">
         <rdfs:isDefinedBy>Represents the attributes of a beer that are tested during tasting</rdfs:isDefinedBy>
         <rdfs:label>Tasting Note</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ultra-Strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ultra-Strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatMalt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatMalt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
     </owl:Class>
     
 
@@ -446,81 +926,61 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Australia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Australia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Australia"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Belgium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Belgium">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Belgium"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops"/>
     
 
 
@@ -534,49 +994,37 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CaramelMalt -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CaramelMalt">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CaramelMalt"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated"/>
     
 
 
@@ -590,25 +1038,19 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery"/>
     
 
 
@@ -622,81 +1064,61 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CraftBrewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CraftBrewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CraftBrewery"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ExtremeStrength -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ExtremeStrength">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ExtremeStrength"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral"/>
     
 
 
@@ -710,49 +1132,37 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithDesserts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat"/>
     
 
 
@@ -766,129 +1176,97 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HighStrength -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HighStrength">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HighStrength"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#India -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#India">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#India"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Japan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Japan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Japan"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LowAlcohol -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LowAlcohol">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LowAlcohol"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MacroBrewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MacroBrewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MacroBrewery"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MicroBrewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MicroBrewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ScaleOfOperation"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#MicroBrewery"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NewZealand -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NewZealand">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NewZealand"/>
     
 
 
@@ -910,33 +1288,25 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleMalt -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleMalt">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleMalt"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Lager"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney"/>
     
 
 
@@ -950,9 +1320,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter"/>
     
 
 
@@ -966,57 +1334,43 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Specialization"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RoastedMalt -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RoastedMalt">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RoastedMalt"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithVegetarianDishes"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SessionStrength -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SessionStrength">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SessionStrength"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia"/>
     
 
 
@@ -1030,113 +1384,85 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithVegetarianDishes"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StandardStrength -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StandardStrength">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StandardStrength"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StreetFood -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StreetFood">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SnackFoods"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#StreetFood"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sugars -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sugars">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sugars"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#HybridStyle"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer"/>
     
 
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast"/>
     
 
 
@@ -1195,6 +1521,26 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Appearance"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Aroma"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Flavour"/>
@@ -1204,10 +1550,98 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Oceania"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bitter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Sweet"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Creamy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Full-Bodied"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light-Bodied"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Citrus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Earthy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Floral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Piney"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spicy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Light"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Other"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
