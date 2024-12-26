@@ -40,6 +40,13 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 **producesBeer:** Defines a relationship between a brewery and the beers it produces.
 
 
+## Work Distribution:
+...
+
+
+## Sources:
+...
+
 ## Other Ontologies:
 **https://rdf.ag/o/beer-en.html** - 1. Beer ontology = The scope of this ontology is to help provide beer and beer ingredient traceability, process control and style identification in a language neutral way.
 **https://www.cs.umd.edu/projects/plus/SHOE/onts/beer1.0.html** - 2. Draft of a beer ontology
