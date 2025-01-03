@@ -7,7 +7,7 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 ## Classes:
 
 **BeerStyle:** Represents styles of beer (e.g., PaleAle, IPA, Stout).
-- https://www.wineenthusiast.com/basics/most-popular-style-beer-guide/?utm_source=chatgpt.com
+- https://www.wineenthusiast.com/basics/most-popular-style-beer-guide
 - https://www.tastingtable.com/1705830/types-of-beer-explained/
 
 **TastingNote:** Represents sensory characteristics like flavor, aroma, and appearance.
@@ -27,7 +27,7 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 - Malt: https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer/
 - Yeast: https://beermaverick.com/yeasts/
 - Hops: https://www.brewgem.com/what-types-of-hops-are-used-in-beer-brewing/
-- Adjuncts: https://www.thespruceeats.com/beer-adjuncts-guide-353147?utm_source=chatgpt.com
+- Adjuncts: https://www.thespruceeats.com/beer-adjuncts-guide-353147
 
 **AlcoholContent:** Represents alcohol by volume (ABV).
 - https://www.unknownbrewing.com/how-much-alcohol-is-in-beer/
@@ -53,8 +53,18 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 
 ## Work Distribution:
-...
+Lukas:
+- Defined comments to each class
+- Defined proper naming conventions and QA
 
+Johanka:
+- Defined object properties
+- Created final presentation
+
+Martin:
+- Defined beer ontology classes
+- Gathered sources for the classes and other ontologies
+- Defined individuals
 
 ## Sources:
 ...
