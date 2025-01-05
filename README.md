@@ -52,6 +52,14 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 **producesBeer:** Defines a relationship between a brewery and the beers it produces.
 
 
+## Instances:
+https://alkypal.com.au/beer/ale/sour-ale.html
+
+https://www.nachmelenaopice.cz/en/
+
+https://pivo.beerstation.sk/
+
+
 ## Work Distribution:
 Lukas:
 - Defined comments to each class
