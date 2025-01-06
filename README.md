@@ -24,7 +24,9 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 **Ingredient:** Represents beer ingredients like malt, hops, yeast, and water. 
 - General structure: https://www.homebrewersassociation.org/how-to-brew/homebrew-ingredients/
-- Malt: https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer/
+- Malt:
+- https://www.baladin.it/en/blog/what-are-the-ingredients-of-beer/
+- https://beercrush.eu/en/blogs/articles/malt-dans-la-biere?srsltid=AfmBOook9H_nc_xyF6MwCukgzVVWTD7FSFsSzmnY0qJXjm8V4gjHWaf6
 - Yeast: https://beermaverick.com/yeasts/
 - Hops: https://www.brewgem.com/what-types-of-hops-are-used-in-beer-brewing/
 - Adjuncts: https://www.thespruceeats.com/beer-adjuncts-guide-353147
