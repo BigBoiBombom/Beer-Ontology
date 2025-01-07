@@ -18,6 +18,7 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 **FoodPairing:** Represents foods that complement specific beer styles.
 - https://www.brewersassociation.org/attachments/0000/2095/Beer_and_Food_Flyer_MDC.pdf
 - https://www.webstaurantstore.com/article/96/beer-and-food-pairings.html?srsltid=AfmBOopsjI7v4dnyX5IbS5jKh87guIQfwSv7jYdRXb2qrVmUl2YHA6Mq
+- https://www.craftbeer.com/beer-styles  =  *contains food pairings to every beer style*
 
 **Region:** Represents geographical origins of beer styles or breweries.
 - https://www.statista.com/statistics/270269/leading-10-countries-in-worldwide-beer-production/ = Selected top 5 + Czechia and Slovakia
