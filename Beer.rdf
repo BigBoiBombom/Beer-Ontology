@@ -136,7 +136,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
         <rdfs:isDefinedBy>Supplements added during the brewing</rdfs:isDefinedBy>
-        <rdfs:label>Adjuncts</rdfs:label>
+        <rdfs:label xml:lang="en">Adjuncts</rdfs:label>
     </owl:Class>
     
 
@@ -144,11 +144,11 @@
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AlcoholContent">
-        <rdfs:comment>Low alcohol: &lt;0.5% ABV
-Session: 1.0% - 4.0% ABV
-Standard: 4.8% - 6.0% ABV
-High strength: 6.0% - 10.0% ABV
-Extreme strength: &gt;10.0% ABV</rdfs:comment>
+        <rdfs:comment>NoAlcohol: &lt;0.5%
+Light: 1.0% - 4.0% ABV
+Medium: 4.8% - 6.0% ABV
+Strong: 6.0% - 10.0% ABV
+UltraStrong: &gt;10.0% ABV</rdfs:comment>
         <rdfs:isDefinedBy>Represents the proportion of alcohol present in a beer, typically expressed as a percentage of the total volume (Alcohol by Volume, ABV)</rdfs:isDefinedBy>
         <rdfs:label>Alcohol Content</rdfs:label>
     </owl:Class>
@@ -177,14 +177,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmericanAmberAle -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmericanAmberAle">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle"/>
     </owl:Class>
     
 
@@ -221,6 +213,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:label xml:lang="en">Asia</rdfs:label>
+        <rdfs:label>Represents beers originating from Asia</rdfs:label>
     </owl:Class>
     
 
@@ -238,6 +232,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BarleyMalt">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatMalt"/>
+        <rdfs:isDefinedBy>Malt created from barley, the most common malt for brewing beer</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Barley Malt</rdfs:label>
     </owl:Class>
     
 
@@ -283,14 +279,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
@@ -301,14 +289,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ale"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
     </owl:Class>
     
 
@@ -337,14 +317,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops">
@@ -366,7 +338,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
         <rdfs:isDefinedBy>Represents beers originating from Europe</rdfs:isDefinedBy>
-        <rdfs:label>Europe</rdfs:label>
+        <rdfs:label xml:lang="en">Europe</rdfs:label>
     </owl:Class>
     
 
@@ -394,6 +366,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FriedMeat">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WithMeat"/>
+        <rdfs:isDefinedBy>Fried meats</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fried Meat</rdfs:label>
     </owl:Class>
     
 
@@ -410,14 +384,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
     </owl:Class>
     
 
@@ -443,7 +409,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Hops">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
         <rdfs:isDefinedBy>A plant cone used primarily as a bittering, flavouring, and stability agent in beer</rdfs:isDefinedBy>
-        <rdfs:label>Hops</rdfs:label>
+        <rdfs:label xml:lang="en">Hops</rdfs:label>
     </owl:Class>
     
 
@@ -470,7 +436,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient">
         <rdfs:isDefinedBy>Represents specific ingredients used in the brewing of the beer</rdfs:isDefinedBy>
-        <rdfs:label>Ingredient</rdfs:label>
+        <rdfs:label xml:lang="en">Ingredient</rdfs:label>
     </owl:Class>
     
 
@@ -498,7 +464,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
         <rdfs:isDefinedBy>A grain that provides the sugar that is essential in brewing beer, as well as adding aromas like coffee, toast, almonds, and others to the beer</rdfs:isDefinedBy>
-        <rdfs:label>Malt</rdfs:label>
+        <rdfs:label xml:lang="en">Malt</rdfs:label>
     </owl:Class>
     
 
@@ -507,14 +473,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#McDonalds">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FoodPairing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
+        <rdfs:isDefinedBy>Foods bought from McDonald&apos;s</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">McDonald&apos;s</rdfs:label>
     </owl:Class>
     
 
@@ -542,7 +502,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
         <rdfs:isDefinedBy>Represents beers originating from North America</rdfs:isDefinedBy>
-        <rdfs:label>North America</rdfs:label>
+        <rdfs:label xml:lang="en">North America</rdfs:label>
     </owl:Class>
     
 
@@ -551,6 +511,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Other">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Adjuncts"/>
+        <rdfs:isDefinedBy>Other, more unusual and exotic adjuncts</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
     </owl:Class>
     
 
@@ -621,14 +583,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SnackFoods -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SnackFoods">
@@ -647,10 +601,12 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America -->
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SouthAmerica -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#South_America">
+    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SouthAmerica">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Region"/>
+        <rdfs:isDefinedBy>Represents beers originating from South America</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">South America</rdfs:label>
     </owl:Class>
     
 
@@ -688,22 +644,6 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer">
@@ -716,6 +656,8 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatMalt">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Malt"/>
+        <rdfs:isDefinedBy>Malt created from wheat, can be used on its own, however it does not have any bark so it is usually used with barley malt</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wheat Malt</rdfs:label>
     </owl:Class>
     
 
@@ -773,7 +715,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Yeast">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ingredient"/>
         <rdfs:isDefinedBy>Used during brewing to convert sugars into alcohol and carbon dioxide, creating the distinct flavours, aromas, and textures</rdfs:isDefinedBy>
-        <rdfs:label>Yeast</rdfs:label>
+        <rdfs:label xml:lang="en">Yeast</rdfs:label>
     </owl:Class>
     
 
@@ -865,6 +807,14 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brazil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SouthAmerica"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery"/>
@@ -879,7 +829,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
+    </owl:NamedIndividual>
     
 
 
@@ -901,6 +853,14 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Carbonated">
         <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Asia"/>
     </owl:NamedIndividual>
     
 
@@ -979,7 +939,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Czechia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1000,7 +962,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Duck-RabbitAmberAle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Duck-RabbitAmberAle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmericanAmberAle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle"/>
         <untitled-ontology-8:hasAlcoholContent rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium"/>
         <untitled-ontology-8:hasBrewery rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#TheDuck-RabbitCraftBrewery"/>
         <untitled-ontology-8:hasFoodPairing rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue"/>
@@ -1091,7 +1053,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1209,9 +1173,7 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ireland -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ireland">
-        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Ireland"/>
     
 
 
@@ -1295,6 +1257,14 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Medium-Bodied">
         <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mouthfeel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Mexico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
     </owl:NamedIndividual>
     
 
@@ -1446,7 +1416,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Slovakia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1567,7 +1539,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#NorthAmerica"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1581,7 +1555,9 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
 
     <!-- http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#UnitedKingdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Europe"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1657,9 +1633,145 @@ Extreme strength: &gt;10.0% ABV</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AleYeast">
+        <rdfs:isDefinedBy>Used for top fermentation, meaning they rise to the top of the fermenter as they propagate and work at chewing up sugars. These yeasts typically work between an ideal temperature range of 60-73 °F (18-22 °C)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ale Yeast</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AmberAle">
+        <rdfs:isDefinedBy>An amber, hoppy, moderate-strength American craft beer with a caramel malty flavor</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Amber Ale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#AromaHops">
+        <rdfs:isDefinedBy>Used to add fragrance and aroma to beer, usually added towards the end of the brewing process or during the fermentation. Lower concentration of alpha acids but are rich in essential oils, which give them their distinct aromas</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Aroma Hops</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barbecue">
+        <rdfs:isDefinedBy>Barbecued meats</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Barbecue</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Barleywine">
+        <rdfs:isDefinedBy>Strong, full-bodied with a rich copper to dark red-brown color and medium hoppiness. Usually high in alcohol content</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Barley Wine</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BelgianAle">
+        <rdfs:isDefinedBy>Gold to copper in color and can have caramel or toasted malt flavor. Can be characterized by low but noticeable hop bitterness, flavor and aroma</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Belgian Ale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BitterHops">
+        <rdfs:isDefinedBy>Used to add bitterness to a beer, usually added early in the brewing process. Higher concentration of alpha acids, which are responsible for the bitter taste</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bitter Hops</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Bock">
+        <rdfs:isDefinedBy>High in malt sweetness, originating in Germany</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bock</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Brewery">
         <rdfs:isDefinedBy>A business that makes and sells beer</rdfs:isDefinedBy>
         <rdfs:label>Brewery</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#BrownAle">
+        <rdfs:isDefinedBy>A malty, brown caramel-centric British ale without the roasted flavors of a Porter</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brown Ale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ChocolateBased">
+        <rdfs:isDefinedBy>Desserts based on chocolate</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Chocolate Based</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#ContractBrewery">
+        <rdfs:isDefinedBy>A company or brewery that hires another company or brewery to produce additional beer that it then sells. This is often for the purposes of either expanding a company or brewery’s selection, or to cover additional production beyond the brewery’s capacity.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Contract Brewery</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#CreamBased">
+        <rdfs:isDefinedBy>Desserts based on cream</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cream Based</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dual-PurposeHops">
+        <rdfs:isDefinedBy>Can be used for both bitterness and aroma. Moderate concentration of alpha acids and contribute to both the bitterness and the aromatic profile of the beer</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Dual-Purpose Hops</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Dunkel">
+        <rdfs:isDefinedBy>A dark bottom-fermented lager style beer originating in Germany</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Dunkel</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#FruitBased">
+        <rdfs:isDefinedBy>Desserts based on fruit</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fruit Based</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Fruits">
+        <rdfs:isDefinedBy>Fruits that are added during the brewing, with intention of enriching the flavour, aroma and color</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fruits</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#GrilledMeat">
+        <rdfs:isDefinedBy>Grilled meats</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Grilled Meat</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Helles">
+        <rdfs:isDefinedBy>A pale golden lager, medium bodied beer with an emphasis on clean, bready, malt flavors and floral hop aromas with mild bitterness. Originating from Germany</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Helles</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#IndiaPaleAle">
+        <rdfs:isDefinedBy>Characterized by high levels of alcohol and hops, often sweet and almost always bitter, with characteristic citrus, tropical fruit and resin-like pine aromas</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">India Pale Ale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#LagerYeast">
+        <rdfs:isDefinedBy>Most lager yeast strains ferment at the bottom of the fermenter, and ferment much slower than ale yeast. Lager yeast works within the temperature range of 44 to 60°F (7-15°C) and ferment at the bottom of the fermenter</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Lager Yeast</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Märzen">
+        <rdfs:isDefinedBy>A golden to deep amber lager style with a full body and a moderate bitterness, originally from Germany</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Märzen</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#PaleAle">
+        <rdfs:isDefinedBy>Hop-forward with a malty flavor, a golden to amber color, and moderate strength</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Pale Ale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Pilsner">
+        <rdfs:isDefinedBy>A pale, golden lager, originally from the Czech Republic. It tends to have a bolder flavor profile than many other lagers</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Pilsner</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Porter">
+        <rdfs:isDefinedBy>Known for their deep ruby brown to black color, dark malts that often impart chocolate and caramel flavors, and well-balanced, hearty characteristics</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Porter</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#RegionalBrewery">
+        <rdfs:isDefinedBy>Falls between a macro- and microbrewery, with production between 15,000 and 6,000,000 barrels of beer each year, both for off-site distribution and on-site consumption, depending on the size and scale of the brewery facilities and production.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Regional Brewery</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Saison">
+        <rdfs:isDefinedBy>Defined by low alcohol, a light body, and high carbonation, with dry, fruity, spicy flavour</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Saison</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SavouryPastries">
+        <rdfs:isDefinedBy>Savoury pastries that do not contain meat</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Savoury Pastries</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Seafood">
+        <rdfs:isDefinedBy>Fish and other meat from the seas or oceans</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Seafood</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SourBeer">
+        <rdfs:isDefinedBy>Any beer with a sour, tart or acidic taste. It may include fruits like cherry, raspberry and peach to create a satisfying balance of sour and sweet flavors</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sour Beer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Spices">
+        <rdfs:isDefinedBy>Spices and dried herbs that are added during the brewing</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Spices</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#SpicyFood">
+        <rdfs:isDefinedBy>Spicy foods that do not contain meat</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Spicy Food</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#Stout">
+        <rdfs:isDefinedBy>Distinguished by its deep, almost black color and its rich, complex flavor with notes of toasted dark malt</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Stout</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WheatBeer">
+        <rdfs:isDefinedBy>Typically a top-fermented ale that uses at least 30 percent wheat in the brewing process. Originates in Bavaria, Germany</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wheat Beer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/demov/ontologies/2024/11/untitled-ontology-8#WildYeast">
+        <rdfs:isDefinedBy>Any species of yeast in fermentation other than the pitching yeast, often derived from the environment in or surrounding the brewery. Either very favorable or avidly detested by brewers due to their reputation as contaminants</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wild Yeast</rdfs:label>
     </rdf:Description>
     
 
