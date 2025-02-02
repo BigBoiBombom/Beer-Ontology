@@ -56,6 +56,8 @@ The Beer-Ontology project aims to create a structured and reusable ontology to r
 
 
 ## Instances:
+https://www.domaca-pivoteka.sk/
+
 https://alkypal.com.au/beer/ale/sour-ale.html
 
 https://www.nachmelenaopice.cz/en/
