@@ -82,7 +82,61 @@ Martin:
 - Defined individuals
 
 ## Sources:
-...
+Saison
+- Saison Dupont
+https://www.brasserie-dupont.com/en/beer/saison-dupont
+
+- Boulevard Tank 7
+https://www.boulevard.com/beverage/tank-7/
+
+- Hill Farmstead Saison
+https://hillfarmstead.com/
+
+Wheat-Beer
+- Weihenstephaner Hefeweissbier
+https://www.weihenstephaner.com/our-beers/wheat-beer
+
+- Hoegaarden Witbier
+https://en.wikipedia.org/wiki/Hoegaarden_Brewery
+
+- Allagash White
+https://www.allagash.com/beer/wheat/white/
+
+
+Bock
+- Shiner Bock
+https://shiner.com/beer/shiner-bock/
+
+- Paulaner Salvator Doppelbock
+https://www.paulaner.com/us/our-products/salvator/
+
+
+- Einbecker Ur-Bock Dunkel
+https://bunitedint.com/media/resources/sales_sheets/Einbecker.pdf
+
+
+
+Dunkel
+- Ayinger Altbairisch Dunkel
+https://www.ayinger.de/cms/index.php/altbairisch-dunkel-265.html
+
+- Hacker-Pschorr Dunkel
+https://www.beeradvocate.com/beer/profile/76/3743/
+
+- Lowenbrau Dunkel
+https://en.wikipedia.org/wiki/L%C3%B6wenbr%C3%A4u_Brewery
+
+
+Märzen
+- Paulaner Oktoberfest Märzen
+https://www.paulaner.com/us/our-products/oktoberfest-maerzen/
+
+- Hacker-Pschorr Original Oktoberfest
+https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen
+
+- Ayinger Oktober Fest-Märzen
+
+
 
 ## Other Ontologies:
 **https://rdf.ag/o/beer-en.html** - 1. Beer ontology = The scope of this ontology is to help provide beer and beer ingredient traceability, process control and style identification in a language neutral way. __
