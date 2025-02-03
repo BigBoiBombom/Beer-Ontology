@@ -138,6 +138,75 @@ https://www.hacker-pschorr.com/our-beers/usa/oktoberfest-maerzen
 https://www.thebrewadventures.com/beerreviews/oktober-fest-marzen-ayinger-review
 
 
+Belgian Ale
+- Herkenrode Noctis Dubbel
+https://www.beershop.sk/p/herkenrode-16-noctis-dubbel
+
+- Belgian Blond Ale
+https://lanius.sk/portfolio/belgian-blond-ale-15/
+
+- ORVAL Belgian PALE ALE
+https://untappd.com/b/brasserie-d-orval-orval/851
+
+
+Brown Ale
+- Spekulka 17
+https://opive.sk/ked-do-piva-nasypete-oblubene-vianocne-korenie-spekulka/
+https://pivovarzichovec.cz/produkt/spekulka-17/#produkty-taby
+
+- Muflon Red ale
+http://www.atlaspiv.cz/?page=detail&beer_id=1968
+
+- Jihoměstský Brown Ale
+https://www.pivnici.cz/pivo/jihomestsky-brown-ale/
+
+
+Stout
+- Primátor Stout
+https://eshop.primator.cz/primator-stout/
+http://www.atlaspiv.cz/?page=detail&beer_id=244
+
+- Matuška Stout
+https://www.pivovarmatuska.cz/pivo/stout/
+
+- Čestmír Immortal Stout
+https://www.pivnici.cz/pivo/cestmir-immortal-stout-15/
+
+
+Barley Wine
+- Barrel-Aged Barley Wine
+https://opive.sk/paradny-kusok-od-susedov-z-ceska-barrel-aged-barley-wine/
+
+- Age of Lies
+https://opive.sk/pivo-s-ktorym-spokojne-skoncite-kazdy-den-age-of-lies/
+
+- Barley Wine 24
+https://www.eshop-libertas.cz/barley-wine-24/
+
+
+Porter
+- Pardubický Porter
+https://www.domaca-pivoteka.sk/pardubicky-porter-19/
+
+- Obora Porter
+https://www.beershop.sk/p/obora-porter?srsltid=AfmBOorORA7nuMbEYujGBtqcuZkfVG-ibFimfHJDRz7RUq_UsDsSqDRi
+
+- Čerešňový Porter
+https://pivo.beerstation.sk/menu/1/detail-product?pid=2364
+
+
+Amber Ale
+- Baťak Amber Ale
+https://opive.sk/vyrazne-chmeleny-amber-ale-z-partizanskeho-amber-ale/
+
+- Franz Cigánska láska
+https://www.yeme.sk/ciganska-laska-12-amber-ale-0-75l-p57817
+http://www.kamnapivo.sk/webtron/degustacia-franz-ciganska-laska-12.html
+
+- Rojc Manuka Amber Ale
+https://www.beershop.sk/p/rojc-manuka-ale?srsltid=AfmBOorIm5HL13XHQYpOABuWRsdp6JAMoorCGyaHgFe-kjVWysZyqTup
+
+
 ## Other Ontologies:
 **https://rdf.ag/o/beer-en.html** - 1. Beer ontology = The scope of this ontology is to help provide beer and beer ingredient traceability, process control and style identification in a language neutral way. __
 **https://www.cs.umd.edu/projects/plus/SHOE/onts/beer1.0.html** - 2. Draft of a beer ontology __
