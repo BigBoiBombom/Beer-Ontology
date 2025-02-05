@@ -12,6 +12,7 @@
 - [Team] Added more classes
 - [Team] Beer style class has been split into 3 parts, and each added around 3 instances for each
 - [Johanka] Created final presentation
+- [FINAL PRESENTATION]
 
 ### Purpose
 
