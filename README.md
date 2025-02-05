@@ -1,7 +1,7 @@
 # Beer-Ontology
 
 ## Development process
-- [Martin] Researches already existing ontologies
+- [Martin] Research into already existing ontologies
 - [Team] Went over the gathered data and decided on the structure
 - [Martin] Initial definement of ontology classes
 - [Lukas] Defined proper naming convention and added descriptions to each class
