@@ -1,5 +1,18 @@
 # Beer-Ontology
 
+## Development process
+- [Martin] Researches already existing ontologies
+- [Team] Went over the gathered data and decided on the structure
+- [Martin] Initial definement of ontology classes
+- [Lukas] Defined proper naming convention and added descriptions to each class
+- [Johanka] Defined object properties
+- [FIRST PRESENTATION]
+- [Martin] Fixed issue with instances that should have been classes and vice versa
+- [Lukas] Fixed naming convetion
+- [Team] Added more classes
+- [Team] Beer style class has been split into 3 parts, and each added around 3 instances for each
+- [Johanka] Created final presentation
+
 ### Purpose
 
 The Beer-Ontology project aims to create a structured and reusable ontology to represent the domain of beers, their styles, breweries, characteristics, and related concepts such as tasting notes, food pairings, and regions. This ontology can serve as a foundation for applications in beer recommendation systems.
@@ -66,20 +79,6 @@ https://pivo.beerstation.sk/
 
 https://www.barthhaas.com/hops-and-products/hops
 
-
-## Work Distribution:
-Lukas:
-- Defined comments to each class
-- Defined proper naming conventions and QA
-
-Johanka:
-- Defined object properties
-- Created final presentation
-
-Martin:
-- Defined beer ontology classes
-- Gathered sources for the classes and other ontologies
-- Defined individuals
 
 ## Sources:
 Saison
