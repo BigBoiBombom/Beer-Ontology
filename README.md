@@ -8,7 +8,7 @@
 - [Johanka] Defined object properties
 - [FIRST PRESENTATION]
 - [Martin] Fixed issue with instances that should have been classes and vice versa
-- [Lukas] Fixed naming convetion
+- [Lukas] Fixed naming convention
 - [Team] Added more classes
 - [Team] Beer style class has been split into 3 parts, and each added around 3 instances for each
 - [Johanka] Created final presentation
